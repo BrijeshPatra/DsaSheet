@@ -14,6 +14,7 @@ public class TwoSum {
             else if (sum>target) {
                 right--;
             }else {
+                //if sum<target
                 left++;
             }
         }

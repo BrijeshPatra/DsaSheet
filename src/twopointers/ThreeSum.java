@@ -26,6 +26,7 @@ public class ThreeSum {
                 } else if (sum>0) {
                     r--;
                 }else {
+                    //if sum<0 then increment left
                     l++;
                 }
             }
