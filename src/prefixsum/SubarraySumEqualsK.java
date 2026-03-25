@@ -24,7 +24,7 @@ public class SubarraySumEqualsK {
                 //if yes the increment the count
                 count+=map.get(prefixSum-k);
             }
-            //if no then update the prefix sum value
+            //if no then update the prefix sum values
             map.put(prefixSum,map.getOrDefault(prefixSum,0)+1);
         }
         return count;
